@@ -4,7 +4,7 @@ int merge(int[],int,int,int);
 int main()
 {
    // int a[] = {2,4,3,5,1};
-   int a[] = {8,4,2,1};
+   int a[] = {2,4,3,5,12,4,3,5,18,4,2,18,4,2,18,4,2,18,4,2,1};
     int noI,n ;
     n = sizeof(a)/sizeof(int);
     noI = mergeSort(a,0,n-1);
